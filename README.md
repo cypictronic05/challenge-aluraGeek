@@ -1,4 +1,16 @@
-### AluraGeek
+# Challenge ONE | HTML | CSS | JavaScript |Front-end | AluraGeek
+
+## 🖥️ Tecnologías Utilizadas:
+
+- Visual Studio Code
+- HTML
+- CSS
+- JavaScript </br>
+
+---
+
+---
+
 
 Link para probar al agregar productos
 
