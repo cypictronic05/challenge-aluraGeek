@@ -64,12 +64,16 @@
   
   #product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 50px;
     background-color: #FFFFFF;
+    max-height: 800px; /* Altura máxima del contenedor */
+    max-width: 800px;
+    overflow-y: auto; /* Activar scroll vertical */
+    border: 2px solid #ccc; /* Borde decorativo */
+    border-radius: 10px; /* Bordes redondeados */
   }
   
-
   
   #product-list .product {
     border: 1px solid #ccc;
@@ -177,9 +181,21 @@
     width: 100%;
   }
 
+  #product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #FFFFFF;
+    max-height: 500px; /* Altura máxima del contenedor */
+    max-width: 400px;
+    overflow-y: auto; /* Activar scroll vertical */
+    border: 2px solid #ccc; /* Borde decorativo */
+    border-radius: 10px; /* Bordes redondeados */
+  }
   
 
   aside {
       order: -1; /* Mueve el aside al inicio de la columna */
   }
 }
+
